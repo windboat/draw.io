@@ -1,80 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T08:36:24.511Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="dYNO1V9qVyuE8GWJhblA" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-23T08:38:52.540Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="2SLC-yncOfBqveCEfV0P" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1026" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1140" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-13" value="PanelControl* modules relationships" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-13" value="PanelControl* module relationships" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry width="800" height="640" as="geometry">
             <mxRectangle width="190" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-0" value="PanelControlCommon&lt;br&gt;(Declare some apis in the form of AIDL)" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#652cb3;strokeColor=#3700CC;swimlaneFillColor=none;fontColor=#ffffff;" parent="K6wyJHr7EwT5NFfYMl7e-13" vertex="1">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-0" value="PanelControlCommon&lt;br&gt;(Declare some apis in the form of AIDL)" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#652cb3;strokeColor=#3700CC;swimlaneFillColor=none;fontColor=#ffffff;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-13" vertex="1">
           <mxGeometry x="280" y="80" width="240" height="160" as="geometry">
             <mxRectangle x="320" y="80" width="170" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-25" value="&lt;div&gt;IPanelControl.aidl&lt;/div&gt;&lt;div&gt;IPanelKeyEventListener.aidl&lt;/div&gt;&lt;div&gt;PanelKeyEvent.aidl&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="K6wyJHr7EwT5NFfYMl7e-0" vertex="1">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-25" value="&lt;div&gt;IPanelControl.aidl&lt;/div&gt;&lt;div&gt;IPanelKeyEventListener.aidl&lt;/div&gt;&lt;div&gt;PanelKeyEvent.aidl&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-0" vertex="1">
           <mxGeometry x="20" y="50" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-5" value="PanelControlSDK" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#f24726;strokeColor=#B20000;fontColor=#ffffff;" parent="K6wyJHr7EwT5NFfYMl7e-13" vertex="1">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-5" value="PanelControlSDK" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#f24726;strokeColor=#B20000;fontColor=#ffffff;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-13" vertex="1">
           <mxGeometry x="40" y="280" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-26" value="&lt;div&gt;PanelControlManager&lt;/div&gt;&lt;div&gt;PanelKeyEventListener&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="K6wyJHr7EwT5NFfYMl7e-5" vertex="1">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-26" value="&lt;div&gt;PanelControlManager&lt;/div&gt;&lt;div&gt;PanelKeyEventListener&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-5" vertex="1">
           <mxGeometry x="20" y="40" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-6" value="PanelControlService" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#12CDD4;strokeColor=#10739e;" parent="K6wyJHr7EwT5NFfYMl7e-13" vertex="1">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-6" value="PanelControlService" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#12CDD4;strokeColor=#10739e;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-13" vertex="1">
           <mxGeometry x="560" y="280" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-28" value="&lt;div&gt;PanelControlService&lt;/div&gt;&lt;div&gt;PanelControlBinder&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="K6wyJHr7EwT5NFfYMl7e-6" vertex="1">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-28" value="&lt;div&gt;PanelControlService&lt;/div&gt;&lt;div&gt;PanelControlBinder&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-6" vertex="1">
           <mxGeometry x="20" y="40" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-7" value="PanelControlDemo" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#2d9bf0;fontColor=#ffffff;strokeColor=#006EAF;" parent="K6wyJHr7EwT5NFfYMl7e-13" vertex="1">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-7" value="PanelControlDemo" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#2d9bf0;fontColor=#ffffff;strokeColor=#006EAF;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-13" vertex="1">
           <mxGeometry x="40" y="480" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-27" value="&lt;div&gt;MainActivity&lt;/div&gt;&lt;div&gt;MainFragment&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="K6wyJHr7EwT5NFfYMl7e-7" vertex="1">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-27" value="&lt;div&gt;MainActivity&lt;/div&gt;&lt;div&gt;MainFragment&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-7" vertex="1">
           <mxGeometry x="20" y="40" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-9" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;" parent="K6wyJHr7EwT5NFfYMl7e-13" source="K6wyJHr7EwT5NFfYMl7e-6" target="K6wyJHr7EwT5NFfYMl7e-0" edge="1">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-9" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-13" source="K6wyJHr7EwT5NFfYMl7e-6" target="K6wyJHr7EwT5NFfYMl7e-0" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="320" y="340" as="sourcePoint" />
             <mxPoint x="480" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-20" value="implement" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K6wyJHr7EwT5NFfYMl7e-9" vertex="1" connectable="0">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-20" value="implement" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-9" vertex="1" connectable="0">
           <mxGeometry x="-0.3138" y="-1" relative="1" as="geometry">
             <mxPoint x="17" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-10" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;" parent="K6wyJHr7EwT5NFfYMl7e-13" source="K6wyJHr7EwT5NFfYMl7e-7" target="K6wyJHr7EwT5NFfYMl7e-5" edge="1">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-10" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-13" source="K6wyJHr7EwT5NFfYMl7e-7" target="K6wyJHr7EwT5NFfYMl7e-5" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="320" y="510" as="sourcePoint" />
             <mxPoint x="480" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-24" value="Call the specific apis &lt;br&gt;through the PanelControlSdk library" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K6wyJHr7EwT5NFfYMl7e-10" vertex="1" connectable="0">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-24" value="Call the specific apis &lt;br&gt;through the PanelControlSdk library" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-10" vertex="1" connectable="0">
           <mxGeometry x="-0.1238" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-11" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" parent="K6wyJHr7EwT5NFfYMl7e-13" source="K6wyJHr7EwT5NFfYMl7e-5" target="K6wyJHr7EwT5NFfYMl7e-6" edge="1">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-11" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-13" source="K6wyJHr7EwT5NFfYMl7e-5" target="K6wyJHr7EwT5NFfYMl7e-6" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="280" y="430" as="sourcePoint" />
             <mxPoint x="440" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-23" value="get the binder proxy of the IPanelControl&lt;br&gt;&amp;nbsp;through bindeService()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K6wyJHr7EwT5NFfYMl7e-11" vertex="1" connectable="0">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-23" value="get the binder proxy of the IPanelControl&lt;br&gt;&amp;nbsp;through bindeService()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-11" vertex="1" connectable="0">
           <mxGeometry x="-0.0667" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-21" value="" style="endArrow=none;startArrow=diamondThin;endFill=0;startFill=0;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;startSize=8;endSize=8;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="K6wyJHr7EwT5NFfYMl7e-13" source="K6wyJHr7EwT5NFfYMl7e-5" target="K6wyJHr7EwT5NFfYMl7e-0" edge="1">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-21" value="" style="endArrow=none;startArrow=diamondThin;endFill=0;startFill=0;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=2;startSize=8;endSize=8;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-13" source="K6wyJHr7EwT5NFfYMl7e-5" target="K6wyJHr7EwT5NFfYMl7e-0" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="450" y="430" as="sourcePoint" />
             <mxPoint x="610" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K6wyJHr7EwT5NFfYMl7e-22" value="PanelControlCommon is a part of the PanelControlSdk" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="K6wyJHr7EwT5NFfYMl7e-21" vertex="1" connectable="0">
+        <mxCell id="K6wyJHr7EwT5NFfYMl7e-22" value="PanelControlCommon is a part of the PanelControlSdk" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="K6wyJHr7EwT5NFfYMl7e-21" vertex="1" connectable="0">
           <mxGeometry x="-0.3396" y="1" relative="1" as="geometry">
             <mxPoint x="-6" y="11" as="offset" />
           </mxGeometry>
