@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T08:19:12.319Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="21.2.3" etag="b-im9ge1MT_f2bSy82r8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T02:17:00.798Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="-ETNI1GD42UlSSiJvQE6" version="22.1.5" type="github">
   <diagram name="Page-1" id="CsIa_x3OmDa4BE4Wmy2-">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="N6mvyxjznTWFGohQ_9sq-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="N6mvyxjznTWFGohQ_9sq-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="N6mvyxjznTWFGohQ_9sq-1">
+          <mxGeometry x="40" y="40" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="N6mvyxjznTWFGohQ_9sq-3" value="ActivGesture application" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="N6mvyxjznTWFGohQ_9sq-1">
+          <mxGeometry x="65" y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N6mvyxjznTWFGohQ_9sq-4" value="Gesture Handler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="N6mvyxjznTWFGohQ_9sq-1">
+          <mxGeometry x="80" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
